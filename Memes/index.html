@@ -3,17 +3,44 @@
 
 <head>
     <Title>Memes</Title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
     <link rel="stylesheet" href="main.css">
 </head>
 
-<body background="http://www.relatably.com/m/img/memes-faces-origin/hqdefault.jpg">
-    <center>
-        <div class="title">
-            <h1><b>MEMES</b></h1>
-            <br> <i>As they were and as they are.</i> </div>
-    </center>
+<body  data-spy="scroll" data-target=".navbar" data-offset="50" background="http://www.relatably.com/m/img/memes-faces-origin/hqdefault.jpg">
+    
+<nav class="navbar navbar-inverse navbar-fixed-top" id="myNavbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">MEMES</a>
+    </div>
     <div>
-        <div class="underline">
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#A History">A History</a></li>
+          <li><a href="#First Memes">First Memes</a></li>
+          <li><a href="Modern Memes">Modern Memes</a></li>
+		  <li><a href="#Best Memes">Best Memes </a></li>
+		  <li><a href="Subscrib">Subcrib</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<br><br>
+	
+		<!--A History-->
+        <div id="A History" class="underline, container-fluid">
             <h2>A History of Memes</h2> </div>
         <center>
             <div class="margin">
@@ -42,7 +69,8 @@
             </div>
         </center>
     </div>
-    <div>
+	<!--First Memes-->
+    <div id="First Memes">
         <h2>The First Memes</h2>
         <hr> </div>
     <div>
@@ -70,7 +98,9 @@
         -->
         </center>
          </div>
-     <div>
+	
+	<!--Modern Memes-->
+     <div id="Modern Memes">
         <h2>Modern Memes</h2>
         <hr> </div>
     <div>
@@ -96,7 +126,8 @@
         <img src="http://i.imgur.com/IHLYz2J.jpg">
     </center>
     </div>
-    <div>
+	<!--Best Memes-->
+    <div id="Best Memes">
         <h2>Best Memes of all time</h2>
         <hr> </div>
     <div>
@@ -134,7 +165,33 @@
 </table>
 
     </div>
-    
+	<!--Subscrib-->
+	<div id="Subscrib">
+        <h2>Subscribe to Memes Weekly</h2>
+        <hr> </div>
+		
+	<div class="form">
+	<center>
+		<form action="action_page.php">
+  First name:<br>
+  <input type="text" name="firstname" value="Rick">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Harrison">
+  <br>
+  Email:<br>
+  <input type="text" name="Email" value="MyPawnShop@email.com">
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+	</center>
+	</div>
+ 
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
 </body>
 
 </html>
